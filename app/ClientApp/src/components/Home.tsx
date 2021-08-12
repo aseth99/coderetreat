@@ -3,7 +3,7 @@ import { Button, Typography } from '@material-ui/core';
 const Home = () => {
   return (
     <div>
-      <Typography variant="h1">Hello, world!</Typography>
+      <Typography variant="h1">Hello, bigworld!</Typography>
       <div>
         <Button variant="contained" color="primary">
           CLICK ME
