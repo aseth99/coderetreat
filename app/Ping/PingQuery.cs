@@ -7,5 +7,7 @@ namespace coderetreat.Ping
     public class PingQueryResponse
     {
         public string Message { get; set; }
+        public string Error { get; set; }
+        public bool Succeeded { get; set; }
     }
 }
