@@ -7,5 +7,6 @@
     "typescript",
     "typescriptreact"
   ],
-  "eslint.workingDirectories": ["app/ClientApp/src"]
+  "eslint.workingDirectories": ["app/ClientApp/src"],
+  "editor.formatOnSave": true
 }
