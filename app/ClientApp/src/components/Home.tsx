@@ -1,8 +1,14 @@
 import React from 'react';
+import { Button, Typography } from '@material-ui/core';
 const Home = () => {
   return (
     <div>
-      <h1>Hello, world!</h1>
+      <Typography variant="h1">Hello, world!</Typography>
+      <div>
+        <Button variant="contained" color="primary">
+          CLICK ME
+        </Button>
+      </div>
     </div>
   );
 };
